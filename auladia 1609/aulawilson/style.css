@@ -1,0 +1,283 @@
+ *{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;  
+
+ }
+
+ :root{
+     --corDeFundo: #96450c;
+     --card:   #9f0dcc;
+     --ink: #222;
+     --brand: #690aa8;
+     --muted:  #4b0461;
+ }
+
+ body{
+    text-align: center;
+    background-color: #530885;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+ }
+
+.site-header{
+    background: linear-gradient(90deg, #111111, #af0df0,#111111,#af0df0);
+    padding: 24px 16px;
+    text-align: center;
+}
+
+.site-header h1{
+    margin: 0;
+    font-size: 1.75rem;
+    color: rgb(180, 70, 253);
+}
+
+main {
+    max-width: 700px;
+    /*largura maxima do conteudo */
+    margin: 30px auto;
+    /*centralizar na pagina*/
+    padding: 0 16px;
+    /*respiro lsteral em telas pequenas */
+}
+
+.card {
+    background: var(--card);
+    border-radius: 16px;
+    padding: 20px;
+    box-shadow: 0 8px 24px rgba(171, 90, 247, 0.99);
+    border: 1px solid rgb(19, 20, 1);
+}
+
+h2{
+    margin-top: 0;
+}
+
+p{
+    margin: 8px 0 16px;
+    color: var(--muted);
+}
+
+label {
+    display: block;
+    /*quebra de linha*/
+    margin-top: 12px;
+    font-weight: 600;
+    color:  rgb(93, 2, 153);
+}
+
+input {
+    width: 100%;
+    padding: 10px 12px;
+    border: 1px solid rgb(88, 8, 95);
+    border-radius: 10px;
+    outline: none;
+    margin-top: 6px;
+    font-size: 1rem;
+    background-color: #410155;
+    color:rgb(255, 255, 255)
+}
+
+input:focus {
+    border-color: var(--brand);
+    box-shadow: 0 0 0 3px rgba(59, 2, 92, 0.76);
+   
+}
+
+/* button {
+    margin-top: 16px;
+    padding: 12px 16px;
+    border-radius: 12px;
+    border: none;
+    cursor: pointer;
+    background-color: var(--brand);
+    color: rgb(19, 18, 18);
+    font-weight: 700;
+    font-size: 1rem;
+}
+
+button:hover{
+    filter: brightness(1.05);
+} */
+
+button {
+    margin-top: 16px;
+    background-color: #390557;
+    border-radius: 10px;
+    color: #fff;
+    cursor: pointer;
+    padding: 10px 35px;
+    font-size: 18px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    border: none;
+   }
+   
+   button:hover {
+    background-image: linear-gradient(90deg, #53cbef 0%, #dcc66c 50%, #ffa3b6 75%, #53cbef 100%);
+    animation: slidernbw 5s linear infinite;
+    color: #000;
+   }
+   
+   @keyframes slidernbw {
+    to {
+     background-position: 20vw;
+    }
+   }
+   button:active {
+    transform: perspective(20px);
+   }
+  
+#resultado {
+    margin-top: 14px;
+    font-size: 1.05rem;
+    color: #530885;
+}
+
+.site-footer {
+    padding: 24px, 16px;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* From Uiverse.io by cssbuttons-io */ 
+/* button {
+    appearance: button;
+    background-color: #404e03;
+    border: solid transparent;
+    border-radius: 16px;
+    border-width: 0 0 4px;
+    box-sizing: border-box;
+    color: #04530f;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 15px;
+    font-weight: 700;
+    letter-spacing: .8px;
+    line-height: 20px;
+    margin: 0;
+    outline: none;
+    overflow: visible;
+    padding: 13px 19px;
+    text-align: center;
+    text-transform: uppercase;
+    touch-action: manipulation;
+    transform: translateZ(0);
+    transition: filter .2s;
+    user-select: none;
+    -webkit-user-select: none;
+    vertical-align: middle;
+    white-space: nowrap;
+   }
+   
+   button:after {
+    background-clip: padding-box;
+    background-color: rgb(235, 10, 235);
+    border: solid transparent;
+    border-radius: 12px;
+    border-width: 0 0 4px;
+    bottom: -4px;
+    content: "";
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: -1;
+   }
+   
+   button:main, button:focus {
+    user-select: auto;
+   }
+   
+   button:hover:not(:disabled) {
+    filter: brightness(1.1);
+   }
+   
+   button:disabled {
+    cursor: auto;
+   }
+   
+   button:active:after {
+    border-width: 0 0 0px;
+   }
+   
+   button:active {
+    padding-bottom: 10px;
+   } */
+
+ 
